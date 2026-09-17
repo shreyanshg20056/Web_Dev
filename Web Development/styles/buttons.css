@@ -1,0 +1,141 @@
+  .subscribe-button {
+    background-color: rgb(240, 11, 11);
+    color: white;
+    border: none;
+    height: 40px;
+    width: 105px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 10;
+
+  }
+  .subscribe-button:hover{
+    /* background-color: green; */
+        opacity:0.8;
+
+  }
+  .subscribe-button:active{
+    opacity:0.5;
+  }
+
+  .Join-button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(44, 105, 218);
+    border-color: rgb(31, 141, 231);
+    border-width: 1px;
+    border-style: solid;
+    height: 40px;
+    width: 75px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 10;
+
+  }
+  .join-button:hover{
+    color:white;
+    background-color:rgb(59, 59, 226);
+  }
+  .Join-button:active{
+    /* background-color: mediumturquoise; */
+    opacity:0.7;
+  }
+
+  .Tweet-button {
+    background-color: rgb(64, 125, 238);
+    color: rgb(255, 255, 255);
+    border-color: rgb(255,255,255);
+    border-width: 1px;
+    border-style: solid;
+    height: 34px;
+    width: 73px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: backgroound-color 0.15s,
+    color 0,15s;
+    margin-right: 10;
+    vertical-align: top;
+
+  }
+  .Tweet-button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(64, 125, 238);
+    border-color:black;
+    border-width: 2px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.15);
+    height:37;
+    width: 80;
+    transition: height 0.15s,
+    width 0.15s;
+  }
+  .Tweet-button:active{
+    /* background-color: mediumturquoise; */
+    opacity:0.7;
+    box-shadow: 0px 0px 0px rgba(0,0,0,0);
+
+  }
+
+  .Uber-button {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 10;
+    padding-bottom: 10;
+    padding-left: 11;
+    padding-right: 11;
+    padding-top: 10;
+    padding: 15;
+
+  }
+  .Uber-button:hover{
+    opacity: 0.7;
+    padding-left: 18;
+    padding-bottom: 10;
+    padding-right: 18;
+    padding-top: 10;
+    
+  }
+  .Uber-button:active{
+    opacity: 0.5;
+  }
+
+  .Amazon-button {
+    background-color: rgb(248, 232, 11);
+    color: rgb(0, 0, 0);
+    border-color: rgb(255, 255, 255);
+    border-width: 1px;
+    border-style: solid;
+    height: 28px;
+    width: 135px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 100;
+
+
+  }
+.Amazon-button:hover{
+  background-color:rgb(223, 201, 10)
+}
+.Amazon-button:active{
+  opacity:0.7;
+}
+
+  .Github-button {
+    background-color: rgb(46, 164, 79);
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    border-width: 1px;
+    border-style: solid;
+    height: 33px;
+    width: 80px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 10;
+    margin-top:10;
+  }
+  .Github-button:hover{
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.15);
+  }
